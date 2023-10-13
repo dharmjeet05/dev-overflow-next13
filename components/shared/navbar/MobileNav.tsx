@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { SignedOut } from "@clerk/nextjs";
-import { sidebarLinks } from "@/context";
+import { sidebarLinks } from "@/constants";
 
 const NavContent = () => {
   const pathname = usePathname();
